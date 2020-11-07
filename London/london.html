@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="imgmodal.css">
+    <link rel="stylesheet" href="imgmodal2.css">
+    <link rel="stylesheet" href="imgmodal3.css">
+    <link rel="stylesheet" href="imgmodal4.css">
+    <link rel="stylesheet" href="imgmodal5.css">
+    <link rel="stylesheet" href="imgmodal6.css">
+    <link rel="stylesheet" href="imgmodal7.css">
+    <link rel="stylesheet" href="imgmodal8.css">
+    <link rel="stylesheet" href="imgmodal9.css">
+    <link rel="stylesheet" href="imgmodal10.css">
+    <link rel="stylesheet" href="imgmodal11.css">
+    <link rel="stylesheet" href="imgmodal12.css">
+    <link rel="stylesheet" href="imgmodal13.css">
+    <link rel="stylesheet" href="imgmodal14.css">
+    <link rel="stylesheet" href="imgmodal15.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>Photolio</title>
+  </head>
+  <body class="bg" data-spy="scroll" data-target="#mainnav" data-offset="275" style="position: relative;"  onload="myfunction()">
+
+    <div id="loading">
+
+    </div>
+
+    <!-- Navbar -->
+    <nav id="mainnav" class="navbar navbar-expand-xl navbar-dark bg-nav border-bottom border-white fixed-top ">
+      <nav class="navbar navbar-light">
+        <span id="gt6" class="navbar-brand  my-n3" style="font-family: 'Acme', sans-serif; color: white; font-size: 50px;">D-star Worx</span>
+      </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class=" navbar-nav ml-auto pr-5">
+          <li class="nav-item pr-4">
+            <a class="nav-link ntext2" href="../index.html">About Me</a>
+          </li>
+          <li class="nav-item pr-4">
+            <a class="nav-link ntext2 active" href="#">My Works</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link ntext2" href="../cont.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- bpdy -->
+    <div class="container pt-5">
+      <div class="row pt-5">
+        <div class="col-12 pt-3 mb-n4 text-center">
+          <h1 class="exp display-4"><u>London</u></h1>
+        </div>
+        <div class="col-lg-2 col-sm-3 mt-5 text-center">
+          <a href="#" class="nava">
+            <div class="navb  rounded-pill px-3 py-2">
+              <span><img src="img1.jpg" width="20" height="20" style="border-radius: 50%;"></span>          
+              <span class="navt  ">London</span>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col-lg-2 col-sm-3 mt-5  text-center">
+          <a href="#" class="nava">
+            <div class="navb rounded-pill px-3 py-2">
+              <span><img src="img1.jpg" width="20" height="20" style="border-radius: 50%;"></span>          
+              <span class="navt ">Delhi</span>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col-lg-2 col-sm-3 mt-5  text-center">
+          <a href="../Paris/paris.html" class="nava">
+            <div class="navb  rounded-pill px-3 py-2">
+              <span><img src="img1.jpg" width="20" height="20" style="border-radius: 50%;"></span>          
+              <span class="navt ">Paris</span>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col-lg-2 col-sm-3 mt-5  text-center">
+          <a href="#" class="nava">
+            <div class="navb  rounded-pill px-3 py-2">
+              <span><img src="img1.jpg" width="20" height="20" style="border-radius: 50%;"></span>          
+              <span class="navt ">Dubai</span>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col-lg-2 col-sm-3 mt-5  text-center">
+          <a href="#" class="nava">
+            <div class="navb  rounded-pill py-2">
+              <span><img src="img1.jpg" width="20" height="20" style="border-radius: 50%;"></span>          
+              <span class="navt ">Singapore</span>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col-lg-2 col-sm-3 mt-5  text-center">
+          <a href="#" class="nava">
+            <div class="navb  rounded-pill px-3 py-2">
+              <span><img src="img1.jpg" width="20" height="20" style="border-radius: 50%;"></span>          
+              <span class="navt ">Venice</span>
+            </div>
+          </a>
+          
+        </div>
+        <div class="col-12 pt-2">
+          <div class="card-columns  pt-2">
+            <div class="card">
+              <img src="img1.jpg" class="card-img-top" alt="..." id="myImg">
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img2.jpg" class="card-img-top" alt="..." id="myImg2">
+              <!-- The Modal -->
+              <div id="myModal2" class="modal2">
+
+                <!-- The Close Button -->
+                <span class="close2">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content2" id="img02">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption2"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img3.jpg" class="card-img-top" alt="..." id="myImg3">
+              <!-- The Modal -->
+              <div id="myModal3" class="modal3">
+
+                <span class="close3">&times;</span>
+
+                <img class="modal-content3" id="img03">
+
+                <div id="caption3"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img4.jpg" class="card-img-top" alt="..." id="myImg4">
+              <!-- The Modal -->
+              <div id="myModal4" class="modal4">
+
+                <span class="close4">&times;</span>
+
+                <img class="modal-content4" id="img04">
+
+                <div id="caption4"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img5.jpg" class="card-img-top" alt="..." id="myImg5" >
+              <!-- The Modal-->
+              <div id="myModal5" class="modal5">
+
+                <span class="close5">&times;</span>
+
+                <img class="modal-content5" id="img05">
+
+                <div id="caption5"></div> 
+              </div>
+            </div>
+            <div class="card">
+              <img src="img6.jpg" class="card-img-top" alt="..." id="myImg6">
+              <!-- The Modal -->
+              <div id="myModal6" class="modal6">
+
+                <span class="close6">&times;</span>
+
+                <img class="modal-content6" id="img06">
+
+                <div id="caption6"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img7.jpg" class="card-img-top" alt="..." id="myImg7">
+              <!-- The Modal -->
+              <div id="myModal7" class="modal7">
+
+                <span class="close7">&times;</span>
+
+                <img class="modal-content7" id="img07">
+
+                <div id="caption7"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img8.jpg" class="card-img-top" alt="..." id="myImg8">
+              <!-- The Modal -->
+              <div id="myModal8" class="modal8">
+
+                <!-- The Close Button -->
+                <span class="close8">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content8" id="img08">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption8"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img9.jpg" class="card-img-top" alt="..." id="myImg9">
+              <!-- The Modal -->
+              <div id="myModal9" class="modal9">
+
+                <!-- The Close Button -->
+                <span class="close9">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content9" id="img09">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption9"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img10.jpg" class="card-img-top" alt="..." id="myImg10">
+              <!-- The Modal -->
+              <div id="myModal10" class="modal10">
+
+                <!-- The Close Button -->
+                <span class="close10">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content10" id="img10">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption10"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img11.jpg" class="card-img-top" alt="..." id="myImg11">
+              <!-- The Modal -->
+              <div id="myModal11" class="modal11">
+
+                <!-- The Close Button -->
+                <span class="close11">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content11" id="img11">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption11"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img12.jpg" class="card-img-top" alt="..." id="myImg12">
+              <!-- The Modal -->
+              <div id="myModal12" class="modal12">
+
+                <!-- The Close Button -->
+                <span class="close2">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content12" id="img12">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption12"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img13.jpg" class="card-img-top" alt="..." id="myImg13">
+              <!-- The Modal -->
+              <div id="myModal13" class="modal13">
+
+                <!-- The Close Button -->
+                <span class="close13">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content13" id="img13">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption13"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img14.jpg" class="card-img-top" alt="..." id="myImg14">
+              <!-- The Modal -->
+              <div id="myModal14" class="modal14">
+
+                <!-- The Close Button -->
+                <span class="close14">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content14" id="img14">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption14"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img15.jpg" class="card-img-top" alt="..." id="myImg15">
+              <!-- The Modal -->
+              <div id="myModal15" class="modal15">
+
+                <!-- The Close Button -->
+                <span class="close15">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content15" id="img15">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption15"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-dark bg-nav">
+      <div class="mx-auto text-center exp1">
+        &copy; July, 2020. All rights reserved.<br/>
+        Developed by <a href="https://sscodes.github.io/" target="_blank" style="color: white;">Sanket Sarkar</a> with <i class="fas fa-heart" style="color: red;"></i> & <i class="fas fa-coffee" style="color: burlywood;"></i>.      
+      </div>
+    </nav>
+    
+        
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="imgmodal.js"></script>
+    <script src="imgmodal2.js"></script>
+    <script src="imgmodal3.js"></script>
+    <script src="imgmodal4.js"></script>
+    <script src="imgmodal5.js"></script>
+    <script src="imgmodal6.js"></script>
+    <script src="imgmodal7.js"></script>
+    <script src="imgmodal8.js"></script>
+    <script src="imgmodal9.js"></script>
+    <script src="imgmodal10.js"></script>
+    <script src="imgmodal11.js"></script>
+    <script src="imgmodal12.js"></script>
+    <script src="imgmodal13.js"></script>
+    <script src="imgmodal14.js"></script>
+    <script src="imgmodal15.js"></script>
+    <script src="custom.js"></script>
+    <script src="https://kit.fontawesome.com/f58878145b.js"></script>
+  </body>
+</html>
